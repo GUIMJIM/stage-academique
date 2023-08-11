@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* padding: 24px; */
+    background-color: hsl(30, 38%, 92%);
+  
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.img1 {
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   /* overflow: hidden;
+   object-fit: contain;
+    */
+}
+
+.container-text {
+    /* display: flex;
+    flex-direction: column; */
+     background-color: white; 
+     padding: 25px; 
+     /* padding-bottom: 11px; */
+     justify-content: space-between;
+    
+     
+   
+}
+
+.container-text .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.desc {
+    margin-bottom: 12px;
+    color: hsl(228, 12%, 48%);
+}
+
+.perfumer {
+    color: hsl(228, 12%, 48%);
+}
+
+.N-montant {
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+}
+
+.a-montant {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.dprix {
+    border-spacing: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.botton {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    gap: 20px;
+}
+
+.botton button {
+    border: none;
+    background: none;
+    margin: 20px;
+    color: white;
+
+}
+button:hover{
+    background-color:hsl(228, 12%, 48%);
+}
+
+@media (min-width: 720px) {
+    body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        max-width: 500px;
+        
+    }
+    .img1{
+        object-fit: contain;
+        width: 550px;
+    }
+
+
+}
